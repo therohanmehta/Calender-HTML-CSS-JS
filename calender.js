@@ -30,7 +30,7 @@ function showDate() {
 
   document.getElementById(
     "currentDate"
-  ).innerHTML = `<h1>${monthNames[month]}/${year}</h1>`;
+  ).innerHTML = `<h3>${monthNames[month]}/${year}</h3>`;
 
   let allDays = "";
   for (let i = currentWeekDay; i >= 0; i--) {
